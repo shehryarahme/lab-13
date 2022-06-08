@@ -12,7 +12,7 @@ this.amount-=amount;
 System.out.println("withdraw completed..."); 
 } 
  
-synchronized void deposit(int amount){ 
+synchronized void deposit123(int amount){ 
 System.out.println("going to deposit..."); 
 this.amount+=amount; 
 System.out.println("deposit completed... "); 
